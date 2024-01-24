@@ -1,0 +1,27 @@
+.filterSection {
+    display: inline-block;
+    margin-bottom: -4px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.filter-section-open {
+    transition: max-height 0.3s ease-out;
+    overflow: hidden;
+    max-height: 500px; 
+}
+
+.filter-section-close {
+    max-height: 0;
+    display: none;
+}
+
+.product-filter-section{
+    transition: max-height 0.3s ease-out;
+    overflow: hidden;
+    max-height: 500px; 
+}
+
+.product-filter-section-closed {
+    max-height: 0;
+}
